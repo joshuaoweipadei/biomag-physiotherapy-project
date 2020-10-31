@@ -1,0 +1,22 @@
+{
+  "name": "biomag-physio-therapy-project",
+  "version": "1.0.0",
+  "description": "Biomag Global Physio-therapy Service web app built with react and serve with node.js",
+  "repository": "",
+  "main": "node server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "server": "nodemon ./server.js",
+    "clientinstall": "cd client && npm install",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "Joshua Oweipadei Bayefa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14"
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
+  /* red */
+  /* background: #ff5f78; */
+  /* background: rgb(255, 95, 120); */
+  /* blue */
+  /* background: #00b8d7; */
+  /* background: rgb(0, 184, 215); */
+  /* background: #ff5f78; f7f8fa */
+}
+
+.isError {
+  color: #bd1717 !important
+}
+
+.isErrorBorder {
+  border-color: #bd1717 !important;
+}
+
+.red {
+  color: #ff5f78 !important
+}
+
+.alert{
+  position: fixed;
+  top: 90px;
+  right: 5px;
+  max-width: 320px;
+  width: 100%;
+  z-index: 30;
+  border: none;
+  margin: auto;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 14px;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 430px){
+  .alert {
+    max-width: 280px;
+  }
+}
+
+.alert-error{
+  background-color: #c90404;
+  color: #ffffff;
+}
+
+.alert-warn{
+  background-color: #ff5f78;
+  color: #000000;
+}
+
+.alert-success{
+  background-color: #069e13;
+  color: #ffffff;
+}
+
+/* 
+  height: calc(100vh - 80px);
+} */
