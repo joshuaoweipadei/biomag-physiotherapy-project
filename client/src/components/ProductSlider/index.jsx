@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import { PostsData } from '../../Data'
 
-import '../../assets/styles/ProductSlider.css';
+import '../../styles/ProductSlider.css';
 
 import bg from '../../images/hero1.jpg';
 
@@ -38,6 +38,7 @@ const Card = (props) => {
 
 const ProductSlider = () => {
   const [products, setProducts] = useState(PostsData);
+  
   return (
     <ScrollAnimation animateIn='fadeIn'>
       <div className="product">

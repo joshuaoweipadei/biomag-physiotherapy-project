@@ -4,7 +4,7 @@ import { Link as LinkScroll } from 'react-scroll'
 import { animateScroll as scroll } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-import '../assets/styles/TopNavbar.css';
+import '../styles/TopNavbar.css';
 
 const TopNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

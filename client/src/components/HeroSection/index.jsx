@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {
   HeroContainer,
@@ -14,10 +14,6 @@ import hero from '../../images/hero1.jpg';
 // import hero1 from '../../images/hero1.jpg';
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
-
-  const onHover = () => setHover(!hover);
-  
   return (
     <HeroContainer id="home">
       <HeroBg>

@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import AlertContext from '../AlertContext/alertContext';
 import { GrFacebook, GrTwitter, GrInstagram } from 'react-icons/gr';
 
-import '../../assets/styles/Contact.css'
+import '../../styles/Contact.css'
 
 const Contact = () => {
   const alertContext = useContext(AlertContext);

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
   FooterContainer,
   FooterWrapper,
@@ -18,7 +17,6 @@ import {
   ContactList,
   ContactLink,
 
-  OpeningHour,
   DayRow,
   Day,
   Time,
