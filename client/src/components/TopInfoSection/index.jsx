@@ -32,13 +32,13 @@ const TopInfoSection = () => {
   const onSubmit = async (values, e) => {
     setIsSubmiting(true);
     try {
-      const res = await axios.post('http://localhost:4000/api/email/appointment', values);
+      const res = await axios.post('/api/email/appointment', values);
       setAlert(res.data, 'success');
       e.target.reset();
       setIsSubmiting(false)
     } catch (err) {
       console.log(err)
-      setAlert(err, 'error')
+      setAlert('Could not book appointment.', 'error')
       setIsSubmiting(false)
     }
   }

@@ -10,8 +10,7 @@ import {
   LineH,
 } from './HeroElements'
 
-import hero from '../../images/hero1.jpg';
-// import hero1 from '../../images/hero1.jpg';
+import hero from '../../images/hero.jpg';
 
 const HeroSection = () => {
   return (
@@ -29,22 +28,6 @@ const HeroSection = () => {
           </HeroP>
           <LineH />
         </ScrollAnimation>
-        {/* <HeroBtnWrapper>
-          <Button
-            to="/" 
-            onMouseEnter={onHover} 
-            onMouseLeave={onHover}
-            primary="true"
-            smooth="true"
-            duration={500}
-            spy="true"
-            exact="true"
-            offset={-80}
-            big="true"
-          >
-            MAKE AN APPOINTMENT
-          </Button>
-        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   )
