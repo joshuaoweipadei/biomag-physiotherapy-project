@@ -80,7 +80,7 @@ const Footer = () => {
                     offset={-80}
                   >About</ContactLink>
                 </ContactList>
-                <ContactList>
+                {/* <ContactList>
                   <ContactLink
                     to="services"
                     smooth="true"
@@ -89,7 +89,7 @@ const Footer = () => {
                     exact="true"
                     offset={-80}
                   >Services</ContactLink>
-                </ContactList>
+                </ContactList> */}
                 <ContactList>
                   <ContactLink
                     to="product"
