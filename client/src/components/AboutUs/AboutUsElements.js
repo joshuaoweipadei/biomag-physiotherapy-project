@@ -113,7 +113,6 @@ export const AboutLeftCard = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 58px 10px;
-  margin-bottom: 16px;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 `

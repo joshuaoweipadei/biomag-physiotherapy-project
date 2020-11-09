@@ -44,8 +44,6 @@ const AboutUs = () => {
                 <AboutLeftCardH1>Qualified Team</AboutLeftCardH1>
                 <Para>4+ years of experience</Para>
               </AboutLeftCard>
-            </AboutLeftWrapper>
-            <AboutLeftWrapper>
               <AboutLeftCard>
                 <AboutLeftCardIcon3/>
                 <AboutLeftCardH1>Flexible Schedule</AboutLeftCardH1>
@@ -63,7 +61,7 @@ const AboutUs = () => {
             <AboutRightWrapper>
               <AboutRightCard>
                 <AboutRightH1>About Us</AboutRightH1>
-                <AboutRightH4>Biomag Global Physiotherapy</AboutRightH4>
+                <AboutRightH4>Biomag Physiotherapy & Orthopedic Services</AboutRightH4>
                 <Para spaceLetter>
                   Our main long-term goal is always achieving complex results for your dental health. But in the process, we also keep the focus on giving you the best customer service. We're always making our dental office as safe place as possible!
                   Our main long-term goal is always achieving complex results for your dental health. But in the process, we also keep the focus on giving you the best customer service. We're always making our dental office as safe place as possible!

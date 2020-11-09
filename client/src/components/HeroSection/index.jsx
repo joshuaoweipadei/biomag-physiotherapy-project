@@ -20,7 +20,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <ScrollAnimation animateIn='fadeIn' duration={5}>
-          <HeroH1>High Quality Physio-therapy Services</HeroH1>
+          <HeroH1>Biomag Physiotherapy & Orthopedic Services</HeroH1>
         </ScrollAnimation>
         <ScrollAnimation animateIn='bounceInLeft' animateOnce={true}>
           <HeroP>

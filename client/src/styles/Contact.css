@@ -1,10 +1,35 @@
 .contact {
-  background:#fff;
-  padding: 80px 0;
+  /* background:#0c0c0c; */
+  background-image: url(../images/hero2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.contact::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 1; */
+  background: linear-gradient(
+    180deg, 
+    rgba(255, 95, 120, 0.2) 0%, 
+    rgba(255, 95, 120, 0.6) 0%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 184, 215, 0.7) 100%,
+      transparent 100%
+    );
 }
 
 .contact__wrapper {
@@ -12,6 +37,7 @@
   max-width: 900px;
   width: 100%;
   margin: auto;
+  z-index: 1;
 }
 
 .contact__container {
@@ -33,6 +59,7 @@
 }
 
 .form__wrapper > h1 {
+  color: #ff5f78;
   font-size: 32px;
   font-weight: 600;
   text-align: center;

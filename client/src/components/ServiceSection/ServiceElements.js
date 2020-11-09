@@ -30,25 +30,69 @@ export const ServicesH1 = styled.h1`
   }
 `
 
-export const ServicesWrapper = styled.div`
+export const ServicesDetails = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  grid-gap: 16px;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
 
   @media screen and (max-width: 768px){
     grid-template-columns: 1fr;
   }
 `
 
+export const ServicesInfo = styled.div`
+
+`
+
+export const ServicesItemBox = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+`
+
+export const ServicesItemIcon = styled(ImPhone)`
+  margin-right: 22px;
+  font-size: 22px;
+  color: red;
+
+  @media screen and (max-width: 425px){
+    font-size: 16px;
+  }
+`
+
+export const ServicesItem = styled.h6`
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+
+  @media screen and (max-width: 425px){
+    font-size: 18px;
+  }
+`
+
+export const ServicesWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content:flex-end;
+  grid-gap: 36px;
+  margin: auto;
+
+  @media screen and (max-width: 768px){
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 600px){
+    grid-template-columns: 1fr;
+  }
+`
+
 export const ServicesCard = styled.div`
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 10px;
-  padding: 30px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
@@ -59,30 +103,23 @@ export const ServicesCard = styled.div`
   }
 `
 
-export const ServicesIcon1 = styled(ImPhone)`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+export const ServicesIcon1 = styled.img`
+  width: 100%;
+  height: 100%;
 `
 
-export const ServicesIcon2 = styled(ImPhone)`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+export const ServicesAddress = styled.div`
+  margin-top: 20px;
 `
 
-export const ServicesIcon3 = styled(ImPhone)`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+export const ServicesAddressH2 = styled.h2`
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  color: #ff5f78;
 `
 
-export const ServicesH2 = styled.h2`
+export const ServicesAddressP = styled.p`
   font-size: 1rem;
-  margin-bottom: 10px;
-`
-
-export const ServicesP = styled.p`
-  font-size: 1rem;
-  text-align: center;
+  color: #9b9b9b;
 `

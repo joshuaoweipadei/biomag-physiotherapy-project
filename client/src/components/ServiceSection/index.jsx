@@ -3,37 +3,60 @@ import {
   ServicesContainer,
   ServicesRow,
   ServicesH1,
+  ServicesDetails,
+  ServicesInfo,
+  ServicesItemBox,
+  ServicesItemIcon,
+  ServicesItem,
+  ServicesAddress,
+  ServicesAddressH2,
+  ServicesAddressP,
   ServicesWrapper,
   ServicesCard,
   ServicesIcon1,
-  ServicesIcon2,
-  ServicesIcon3,
-  ServicesH2,
-  ServicesP
 } from './ServiceElements'
 
 const Services = () => {
+  const servicesItems = ['Bone Settings', 'Dislocation', 'Stroke Treatment and Prevention', 'Diabetes and Hypertension', 'Weight Loss Management', 'Fibroid'];
+
   return (
     <ServicesContainer id="services">
       <ServicesRow>
         <ServicesH1>Our Services</ServicesH1>
-        <ServicesWrapper>
-          <ServicesCard>
-            <ServicesIcon1 />
-            <ServicesH2>Reduce Expernses</ServicesH2>
-            <ServicesP>I've found a design that I like, but it doesn't include ecommerce or multilingual features.</ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon2 />
-            <ServicesH2>Reduce Expernses</ServicesH2>
-            <ServicesP>I've found a design that I like, but it doesn't include ecommerce or multilingual features.</ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <ServicesIcon3 />
-            <ServicesH2>Reduce Expernses</ServicesH2>
-            <ServicesP>I've found a design that I like, but it doesn't include ecommerce or multilingual features.</ServicesP>
-          </ServicesCard>
-        </ServicesWrapper>
+        <ServicesDetails>
+          <ServicesInfo>
+            {servicesItems.map((item, i) => (
+              <ServicesItemBox key={i}>
+                <ServicesItemIcon />
+                <ServicesItem>{item}</ServicesItem>
+              </ServicesItemBox>
+            ))}
+            <ServicesItemBox>
+              <ServicesItem>Etc...</ServicesItem>
+            </ServicesItemBox>
+            <ServicesAddress>
+              <ServicesAddressH2>For Enquires call:</ServicesAddressH2>
+              <ServicesAddressP>07069403480</ServicesAddressP>
+              <ServicesAddressH2>Office Address:</ServicesAddressH2>
+              <ServicesAddressP>6 Olorunleke Street, Ipaja, Lagos</ServicesAddressP>
+            </ServicesAddress>
+          </ServicesInfo>
+
+          <ServicesWrapper>
+            <ServicesCard>
+              <ServicesIcon1 src="https://nutritionreview.org/wp-content/uploads/2017/04/vitamin-c-700.jpeg" alt="bone_treat" />
+            </ServicesCard>
+            <ServicesCard>
+              <ServicesIcon1 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvmHgrofHzRaw0Strth2-Ok493yrQDL1OtWw&usqp=CAU" alt="xyz" />
+            </ServicesCard>
+            <ServicesCard>
+              <ServicesIcon1 src="https://images-na.ssl-images-amazon.com/images/I/71KP9owYi%2BL._SX466_.jpg" alt="abc" />
+            </ServicesCard>
+            <ServicesCard>
+              <ServicesIcon1 src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322345_2200-1200x628.jpg" alt="a" />
+            </ServicesCard>
+          </ServicesWrapper>
+        </ServicesDetails>
       </ServicesRow>
     </ServicesContainer>
   )

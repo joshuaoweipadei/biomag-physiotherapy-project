@@ -51,7 +51,7 @@ const TopNavbar = () => {
                   offset={-80}
                 >About</LinkScroll>
               </li>
-              {/* <li className="nav__link">
+              <li className="nav__link">
                 <LinkScroll
                   className="nav__linkScroll"
                   to="services"
@@ -61,7 +61,7 @@ const TopNavbar = () => {
                   exact="true"
                   offset={-80}
                 >Services</LinkScroll>
-              </li> */}
+              </li>
               <li className="nav__link">
                 <LinkScroll
                   className="nav__linkScroll"
