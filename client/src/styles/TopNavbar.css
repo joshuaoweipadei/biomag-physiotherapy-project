@@ -65,9 +65,10 @@ nav {
   }
 }
 
-.mobile__btn > .icon {
+.mobile__btn > .icon, .back_button > .icon  {
   font-size: 32px;
   color: #00b8d7;
+  cursor: pointer;
 }
 
 .mobile__item {

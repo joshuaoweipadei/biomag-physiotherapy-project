@@ -1,0 +1,66 @@
+.service__layout {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_layoutRow {
+  padding: 35px 15px 15px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.service_layoutCard {
+  margin-bottom: 50px;
+}
+
+.service_layoutCard > h2 {
+  font-size: 31px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 18px;
+  border-left: 5px solid #00b8d7;
+}
+
+.service_layoutCard > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  padding-left: 18px;
+  border-left: 5px solid #00b8d7;
+}
+
+.service_layoutCard > ol{
+  margin: 15px 0 30px 60px;
+  list-style-type: #000;
+}
+
+.service_layoutCard > ol > li {
+  list-style-type: disc;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 8px 0;
+  padding-left: 20px;
+  color: #888888;
+}
+
+@media screen and (max-width: 768px){
+  .service_layoutCard > h2 {
+    font-size: 22px;
+    padding-left: 15px;
+  }
+  .service_layoutCard > h3 {
+    font-size: 18px;
+    padding-left: 14px;
+  }
+  .service_layoutCard > ol{
+    margin: 10px 0 30px 20px;
+  }
+  .service_layoutCard > ol > li {
+    font-size: 16px;
+    padding-left: 7px;
+  }
+}

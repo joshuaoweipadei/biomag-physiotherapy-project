@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Button } from '../ButtonElement';
 import { 
   InfoContainer,
   InfoWrapper,
@@ -14,7 +15,7 @@ import {
   Img
 } from './InfoViewElements'
 
-const InfoView = ({ id, lightBg, imgStart, topLine, topLineDark, lightText ,headline, darkText, description, img, alt, animateIn, animateOut }) => {
+const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightText ,headline, darkText, description, img, alt, animateIn, animateOut }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -27,6 +28,14 @@ const InfoView = ({ id, lightBg, imgStart, topLine, topLineDark, lightText ,head
                   <SubTitle darkText={darkText}>{description}</SubTitle>
                   <TopLine topLineDark={topLineDark}>{topLine}</TopLine>
                 </TextWrapper>
+                <Button 
+                  to="/biomag-services"
+                  big="true"
+                  fontbig="true"
+                  color="true"
+                  primary={primary}
+                  dark={darkText}
+                >Read More. . .</Button>
               </ScrollAnimation>
             </Column1>
             

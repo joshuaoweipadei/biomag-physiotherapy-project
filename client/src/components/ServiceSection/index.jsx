@@ -17,7 +17,7 @@ import {
 } from './ServiceElements'
 
 const Services = () => {
-  const servicesItems = ['Bone Settings', 'Dislocation', 'Stroke Treatment and Prevention', 'Diabetes and Hypertension', 'Weight Loss Management', 'Fibroid'];
+  const servicesItems = ['Bone Settings', 'Dislocation', 'Stroke Treatment and Prevention', 'Diabetes and Hypertension', 'Weight Loss Management', 'Fibroid, etc..'];
 
   return (
     <ServicesContainer id="services">
@@ -31,19 +31,16 @@ const Services = () => {
                 <ServicesItem>{item}</ServicesItem>
               </ServicesItemBox>
             ))}
-            <ServicesItemBox>
-              <ServicesItem>Etc...</ServicesItem>
-            </ServicesItemBox>
             <ServicesAddress>
               <ServicesAddressH2>For Enquires call:</ServicesAddressH2>
-              <ServicesAddressP>07069403480</ServicesAddressP>
+              <ServicesAddressP>+234 7069403480</ServicesAddressP>
               <ServicesAddressH2>Office Address:</ServicesAddressH2>
-              <ServicesAddressP>6 Olorunleke Street, Ipaja, Lagos</ServicesAddressP>
+              <ServicesAddressP>6 Olorunleke Street, Ipaja, Lagos, Nigeria.</ServicesAddressP>
             </ServicesAddress>
           </ServicesInfo>
 
           <ServicesWrapper>
-            <ServicesCard>
+            <ServicesCard> 
               <ServicesIcon1 src="https://nutritionreview.org/wp-content/uploads/2017/04/vitamin-c-700.jpeg" alt="bone_treat" />
             </ServicesCard>
             <ServicesCard>

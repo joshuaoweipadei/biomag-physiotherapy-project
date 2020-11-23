@@ -1,0 +1,49 @@
+.energy_wellness {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.energy_wellnessRow {
+  padding: 35px 15px 15px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.energy_wellnessRow > h2 {
+  font-size: 31px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 18px;
+  border-left: 5px solid #00b8d7;
+}
+
+.energy_wellnessRow > h6 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #333;
+  margin: 20px 0 60px;
+}
+
+.energy_wellnessCard {
+  margin-bottom: 50px;
+}
+
+.energy_wellnessCard > p {
+  font-size: 19px;
+  line-height: 2.5rem;
+  text-align: justify;
+  color: #888888;
+}
+
+@media screen and (max-width: 768px){
+  .energy_wellnessRow > h2 {
+    font-size: 22px;
+  }
+  .energy_wellnessRow > h6 {
+    font-size: 18px;
+  }
+}

@@ -20,7 +20,7 @@
   right: 0;
   left: 0;
   /* z-index: 1; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg, 
     rgba(255, 95, 120, 0.2) 0%, 
     rgba(255, 95, 120, 0.6) 0%
@@ -28,6 +28,16 @@
     linear-gradient(
       180deg,
       rgba(0, 184, 215, 0.7) 100%,
+      transparent 100%
+    ); */
+    background: linear-gradient(
+    180deg, 
+    rgba(0, 184, 215, 0.9) 0%, 
+    rgba(0, 184, 215, 0.6) 0%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(0, 184, 215, 0.1) 100%,
       transparent 100%
     );
 }
@@ -59,7 +69,7 @@
 }
 
 .form__wrapper > h1 {
-  color: #ff5f78;
+  color: #00b8d7;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
@@ -110,15 +120,15 @@
   resize: vertical;
 }
 
-.form__wrapper > .form__row > input::placeholder,
-.form__wrapper > .form__row > textarea::placeholder {
+.form__wrapper > .form__row > .form__group > input::placeholder,
+.form__wrapper > .form__row > .form__group > textarea::placeholder {
   font-family: 'Work Sans', sans-serif;
   color: #9b9b9b;
 }
 
-.form__wrapper > .form__row > input:focus,
-.form__wrapper > .form__row > textarea:focus {
-  border-bottom: 1px solid #ff5f78;
+.form__wrapper > .form__row > .form__group > input:focus,
+.form__wrapper > .form__row > .form__group > textarea:focus {
+  border-bottom: 1px solid #00b8d7;
 }
 
 .form__wrapper > .form__row > button {
@@ -129,18 +139,18 @@
   font-family: 'Work Sans', sans-serif;
   color: #fff;
   outline: none;
-  background: #ff5f78;
+  background: #00b8d7;
   cursor: pointer;
 }
 
 .form__wrapper > .form__row > button:hover{
-  background: #d42a43;
+  background: #00b8d7;
   color: #fff;
 }
 
 .form__wrapper > .form__row > button:disabled {
   background: #e2e2e2;
-  color: #ff5f78;
+  color: #00b8d7;
 }
 
 .social__container {

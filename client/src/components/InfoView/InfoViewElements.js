@@ -76,7 +76,8 @@ export const TopLine = styled.span`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-top: 36px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   padding: 4px 24px;
   border: none;
   border-left: 5px solid;

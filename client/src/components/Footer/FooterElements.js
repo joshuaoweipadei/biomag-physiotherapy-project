@@ -61,7 +61,7 @@ export const ServicesH2 = styled.h2`
   font-weight: 600;
   margin-bottom: 24px;
   padding-left: 20px;
-  border-left: 5px solid #e1e1e1;
+  border-left: 5px solid #fff;
   color: #fff;
 `
 

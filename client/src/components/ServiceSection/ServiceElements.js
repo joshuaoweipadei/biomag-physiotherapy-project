@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ImPhone } from 'react-icons/im'
+import { GiPentarrowsTornado } from 'react-icons/gi'
 
 export const ServicesContainer = styled.div`
   display: flex;
@@ -50,7 +50,7 @@ export const ServicesItemBox = styled.div`
   padding: 15px 0;
 `
 
-export const ServicesItemIcon = styled(ImPhone)`
+export const ServicesItemIcon = styled(GiPentarrowsTornado)`
   margin-right: 22px;
   font-size: 22px;
   color: red;

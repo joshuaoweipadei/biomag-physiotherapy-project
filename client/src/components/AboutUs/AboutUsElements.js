@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import { MdLibraryBooks, MdSecurity } from 'react-icons/md'
 import { FaRegCalendarCheck } from 'react-icons/fa';
 import { HiOutlineUsers } from 'react-icons/hi'
@@ -152,5 +153,25 @@ export const Para = styled.p`
   font-weight: 400;
   color: #9b9b9b;
   line-height: ${({ spaceLetter }) => (spaceLetter ? '1.7' : '')};
-  text-align: ${({ justify }) => (justify ? 'justify' : '')}
+  text-align: ${({ justify }) => (justify ? 'justify' : '')};
+`
+
+export const Button = styled(Link)`
+  border-radius: 0px;
+  background: #00b8d7;
+  white-space: nowrap;
+  padding: 12px 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover{
+    background: #00b8d7;
+  }
 `

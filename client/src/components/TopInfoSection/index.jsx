@@ -52,7 +52,7 @@ const TopInfoSection = () => {
               <ServicesH2>Emergency Help</ServicesH2>
               <CallContainer>
                 <CallPhoneIcon/>
-                <CallPhoneNumber>070 66 541 485</CallPhoneNumber>
+                <CallPhoneNumber>+234 7069403480</CallPhoneNumber>
               </CallContainer>
               <ServicesP>We provide 24/7 professional dental help for all clients of our clinic.</ServicesP>
             </OpeningHours>

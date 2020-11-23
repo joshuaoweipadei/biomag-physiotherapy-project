@@ -45,7 +45,7 @@ const Footer = () => {
               <ServicesH2>Contact Address</ServicesH2>
               <AddressPhone>
                 <AddressPhoneIcon />
-                <AddressText>07066541485</AddressText>
+                <AddressText>+234 7069403480</AddressText>
               </AddressPhone>
               <AddressPhone>
                 <AddressEmailIcon />
@@ -53,7 +53,7 @@ const Footer = () => {
               </AddressPhone>
               <AddressPhone>
                 <AddressLocationIcon />
-                <AddressText>7513 North Berkshire Rd. <br/> Auburndale, FL 33823</AddressText>
+                <AddressText>6 Olorunleke Street, Ipaja, <br/> Lagos State, Nigeria.</AddressText>
               </AddressPhone>
             </ContactAddress>
 
