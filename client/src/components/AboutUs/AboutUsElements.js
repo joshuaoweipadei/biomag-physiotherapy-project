@@ -61,7 +61,7 @@ export const AboutRightVisionCard = styled.div`
   grid-template-columns: 1fr 3fr;
   grid-gap: 16px;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 45px;
 
   @media screen and (max-width: 500px) {
     grid-template-columns: 1fr;
@@ -70,12 +70,13 @@ export const AboutRightVisionCard = styled.div`
 
 export const AboutRightVisionContainer = styled.div`
   width: 200px;
-  height: 200px;
+  height: 228px;
 `
 
 export const AboutRightVisionImg = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `
 
 export const AboutRightVisionContent = styled.div`
@@ -101,7 +102,7 @@ export const AboutLeft = styled.div`
 export const AboutLeftWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 10px;
 
   @media screen and (max-width: 425px) {
     grid-template-columns: 1fr;
@@ -113,7 +114,7 @@ export const AboutLeftCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 58px 10px;
+  padding: 58px 0px;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 `
@@ -122,24 +123,40 @@ export const AboutLeftCardIcon1 = styled(MdLibraryBooks)`
   font-size: 48px;
   margin-bottom: 20px;
   color: #00b8d7;
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
 `
 
 export const AboutLeftCardIcon2 = styled(HiOutlineUsers)`
   font-size: 48px;
   margin-bottom: 20px;
   color: #00b8d7;
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
 `
 
 export const AboutLeftCardIcon3 = styled(FaRegCalendarCheck)`
   font-size: 48px;
   margin-bottom: 20px;
   color: #00b8d7;
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
 `
 
 export const AboutLeftCardIcon4 = styled(MdSecurity)`
   font-size: 48px;
   margin-bottom: 20px;
   color: #00b8d7;
+
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
 `
 
 export const AboutLeftCardH1 = styled.h1`
@@ -161,6 +178,7 @@ export const Button = styled(Link)`
   background: #00b8d7;
   white-space: nowrap;
   padding: 12px 14px;
+  /* margin-top: 150px; */
   color: #fff;
   font-size: 14px;
   font-weight: 500;

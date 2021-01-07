@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 import { PostsData } from '../../Data'
 
 import '../../styles/ProductSlider.css';
@@ -40,7 +40,7 @@ const ProductSlider = () => {
   const [products, setProducts] = useState(PostsData);
   
   return (
-    <ScrollAnimation animateIn='fadeIn'>
+    // <ScrollAnimation animateIn='fadeIn'>
       <div className="product">
         <div className="product__container" id="product">
           <h1>Our Products</h1>
@@ -66,7 +66,7 @@ const ProductSlider = () => {
           </div>
         </div>
       </div>
-    </ScrollAnimation>
+    // </ScrollAnimation>
   )
 }
 

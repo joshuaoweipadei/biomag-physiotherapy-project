@@ -78,7 +78,7 @@ export const ServicesWrapper = styled.div`
   grid-gap: 36px;
   margin: auto;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1024px){
     grid-template-columns: 1fr 1fr;
   }
 
@@ -101,11 +101,17 @@ export const ServicesCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 300px){
+    width: 200px;
+    height: 200px;
+  }
 `
 
 export const ServicesIcon1 = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `
 
 export const ServicesAddress = styled.div`

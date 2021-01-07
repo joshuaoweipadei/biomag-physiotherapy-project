@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 import { Button } from '../ButtonElement';
 import { 
   InfoContainer,
@@ -22,7 +22,7 @@ const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightT
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
-              <ScrollAnimation animateIn={animateIn} animateOut={animateOut}>
+              {/* <ScrollAnimation animateIn={animateIn} animateOut={animateOut}> */}
                 <TextWrapper>
                   <Heading lightText={lightText}>{headline}</Heading>
                   <SubTitle darkText={darkText}>{description}</SubTitle>
@@ -36,15 +36,15 @@ const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightT
                   primary={primary}
                   dark={darkText}
                 >Read More. . .</Button>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
             </Column1>
             
             <Column2>
-              <ScrollAnimation animateIn='fadeIn'>
+              {/* <ScrollAnimation animateIn='fadeIn'> */}
                 <ImgWrap>
                   <Img src={img} alt={alt} />
                 </ImgWrap>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
             </Column2>
           </InfoRow>
         </InfoWrapper>

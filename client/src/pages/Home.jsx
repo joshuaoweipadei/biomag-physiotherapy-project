@@ -2,7 +2,7 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import HeroSection from '../components/HeroSection';
 import InfoView from '../components/InfoView';
-import ProductSlider from '../components/ProductSlider';
+// import ProductSlider from '../components/ProductSlider';
 import Services from '../components/ServiceSection';
 import TopInfoSection from '../components/TopInfoSection';
 import TopNavbar from '../components/TopNavbar';
@@ -20,7 +20,7 @@ const Home = () => {
       <AboutUs/>
       <Services />
       <InfoView {...homeObjTwo} />
-      <ProductSlider />
+      {/* <ProductSlider /> */}
       <InfoView {...homeObjOne} />
       <Contact />
       <Footer />

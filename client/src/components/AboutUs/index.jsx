@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 import {
   AboutContainer,
   AboutRow,
@@ -30,7 +30,7 @@ import doctor from '../../images/products/product6.jpeg';
 
 const AboutUs = () => {
   return (
-    <ScrollAnimation animateIn='fadeIn'>
+    // <ScrollAnimation animateIn='fadeIn'>
       <AboutContainer id="about">
         <AboutRow>
           <AboutLeft>
@@ -64,8 +64,8 @@ const AboutUs = () => {
                 <AboutRightH1>About Us</AboutRightH1>
                 <AboutRightH4>Biomag Physiotherapy & Orthopedic Services</AboutRightH4>
                 <Para spaceLetter>
-                  Our main long-term goal is always achieving complex results for your dental health. But in the process, we also keep the focus on giving you the best customer service. We're always making our dental office as safe place as possible!
-                  Our main long-term goal is always achieving complex results for your dental health. But in the process, we also keep the focus on giving you the best customer service. We're always making our dental office as safe place as possible!
+                  We are a wellness company that is focused on bringing general wellness to individuals through natural medicine and therapy.
+                  Biomag Physiotherapy and Orthopedic Services help individuals obtain physical, emotional, mental and spiritual wellness through physiotherapy, nutritional therapy, hydrotherapy and psychotherapy.
                 </Para>
                 <AboutRightVisionCard>
                   <AboutRightVisionContainer>
@@ -73,8 +73,8 @@ const AboutUs = () => {
                   </AboutRightVisionContainer>
                   <AboutRightVisionContent>
                     <AboutRightVisionH1>Our Vision</AboutRightVisionH1>
-                    <Para spaceLetter justify>Our main long-term goal is always achieving complex results for your dental health. But in the process, we also keep the focus on giving you the best customer service. We're always making our dental office as safe place as possible!</Para>
-                    <div style={{marginTop:"40px"}}>
+                    <Para spaceLetter justify>Our main and long term goal is achieving long and lasting satisfactory results for your physical, nutritional, psychological, emotional and spiritual wellbeing.</Para>
+                    <div style={{marginTop:"55px"}}>
                       <Button 
                         to="/scalar-energy-wellness"
                       >Scalar Energy Wellness & Health</Button>
@@ -86,7 +86,7 @@ const AboutUs = () => {
           </AboutRight>
         </AboutRow>
       </AboutContainer>
-    </ScrollAnimation>
+    // </ScrollAnimation>
   )
 }
 

@@ -19,7 +19,7 @@ const HeroSection = () => {
         <ImgBg src={hero} alt="brand" />
       </HeroBg>
       <HeroContent>
-        <ScrollAnimation animateIn='fadeIn' duration={5}>
+        <ScrollAnimation animateIn='fadeIn' animateOnce={true} duration={5}>
           <HeroH1>Biomag Physiotherapy & Orthopedic Services</HeroH1>
         </ScrollAnimation>
         <ScrollAnimation animateIn='bounceInLeft' animateOnce={true}>
