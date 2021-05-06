@@ -20,11 +20,14 @@ export const InfoWrapper = styled.div`
 `
 
 export const InfoRow = styled.div`
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
   display: grid;
-  grid-auto-columns: 1fr, 5fr;
-  align-items: center;
+  grid-auto-columns: 1fr, 2fr;
+  align-items: flex-start;
   justify-content: center;
-  grid-gap: 60px;
+  grid-gap: 30px;
   grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'` )};
 
   @media screen and (max-width: 768px){
@@ -34,6 +37,7 @@ export const InfoRow = styled.div`
 `
 
 export const Column1 = styled.div`
+  width: 100%;
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
@@ -44,7 +48,6 @@ export const Column1 = styled.div`
 `
 
 export const Column2 = styled.div`
-  max-width: 1000px;
   width: 100%;
   margin-bottom: 15px;
   padding: 0 15px;
@@ -59,7 +62,7 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  max-width: 430px;
+  /* max-width: 430px; */
   width: 100%;
   padding-top: 0;
   padding-bottom: 60px;
@@ -86,9 +89,8 @@ export const TopLine = styled.span`
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
+  margin-bottom: 28px;
+  font-size: 38px;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#ffffff' : '#ff5f78')};
 
@@ -98,18 +100,19 @@ export const Heading = styled.h1`
 `
 
 export const SubTitle = styled.p`
-  max-width: 400px;
+  /* max-width: 400px; */
   margin-bottom: 35px;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 26px;
   color: ${({ darkText }) => (darkText ? '#ffffff' : '#9b9b9b')};
 `
 
 export const ImgWrap = styled.div`
   width: 100%;
-  height: 455px;
+  height: 355px;
   border-radius: 4px;
   overflow: hidden;
+  background: #ffffff;
 
   @media screen and (max-width: 425px){
     height: 340px
@@ -120,12 +123,12 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background: #ffffff;
   margin: 0 0 0 0;
   padding-right: 0;
-  transform-origin: 0 0;
-  transition: transform .25s, visibility .25s ease-in;
+  transition: transform .3s, visibility .3s ease-in;
 
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 `

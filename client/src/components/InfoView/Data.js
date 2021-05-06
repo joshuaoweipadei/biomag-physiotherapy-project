@@ -1,20 +1,19 @@
-import img1 from '../../images/products/product5.jpeg';
-import img2 from '../../images/products/product7.jpeg';
-import img3 from '../../images/products/product1.jpeg';
-import img4 from '../../images/products/product6.jpeg';
+import img1 from '../../images/products/product6.jpeg';
+import img2 from '../../images/brand/card.jpg';
 
 export const homeObjOne = {
   id: 'discover',
+  btn: true,
   lightBg: false,
   lightText: false,
   lightTextDesc: true,
   topLine: 'Biomag Global Physiotherapy',
   topLineDark: false,
-  headline: 'How to use the Energy Card',
-  description: 'Wear it as an ID card, place it on any point of the body where there is pain. Place it on drinkable water for 10 minutes to 20 minutes or more for it to charge it together.',
+  headline: 'Health Benefit of Biomagnetic Energy Pack/Card',
+  description: `It stimulates our natural immune function to kill viruses and bacteria, and enhances cell nutrient absorption and waste detoxification.
+                Reduces the harmful effects of EMF (Electro Magnetic Field) from cell phones, computers, wifi, etc...`,
   imgStart: false,
   img: img1,
-  img2: img3,
   alt: 'alt',
   dark: true,
   primary: true,
@@ -26,16 +25,18 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: 'signin',
+  btn: false,
   lightBg: true,
   lightText: true,
   lightTextDesc: false,
-  topLine: 'Make an Appointment',
+  topLine: 'Biomag Global Physiotherapy',
   topLineDark: true,
-  headline: 'How to use the Energy Pack',
-  description: 'Tie it to your pipe connected to your bore hole to energize the whole water in the compound. Then place it on pure water bags or bottle water, it will charge all of them together. Drink 3 to 4 litres of the energy water to cleanse your body and buikd the immune system.',
+  headline: 'How to use the Biomagnetic Energy Pack/Card',
+  description: `The  energy pack can be placed on refrigerator, freezers, packs of sachet or bottled water, it can be connected to you water supply/tap
+                in your home as it energises and alkalise anything it comes in contact with through the generation of scalar energy. The card can be worn
+                as an ID card or placed on any part of the body where there is pain. It has been proven to be an effective pain reliever.`,
   imgStart: true,
   img: img2,
-  img2: img4,
   alt: 'alt',
   dark: true,
   primary: false,

@@ -15,7 +15,7 @@ import {
   Img
 } from './InfoViewElements'
 
-const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightText ,headline, darkText, description, img, alt, animateIn, animateOut }) => {
+const InfoView = ({ id, btn, primary, lightBg, imgStart, topLine, topLineDark, lightText ,headline, darkText, description, img, alt, animateIn, animateOut }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -28,6 +28,7 @@ const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightT
                   <SubTitle darkText={darkText}>{description}</SubTitle>
                   <TopLine topLineDark={topLineDark}>{topLine}</TopLine>
                 </TextWrapper>
+                {btn &&
                 <Button 
                   to="/biomag-services"
                   big="true"
@@ -35,7 +36,8 @@ const InfoView = ({ id, primary, lightBg, imgStart, topLine, topLineDark, lightT
                   color="true"
                   primary={primary}
                   dark={darkText}
-                >Read More. . .</Button>
+                >Know more. . .</Button>
+                }
               {/* </ScrollAnimation> */}
             </Column1>
             

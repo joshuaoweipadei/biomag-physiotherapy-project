@@ -26,7 +26,7 @@ import {
   Button
 } from './AboutUsElements'
 
-import doctor from '../../images/products/product6.jpeg';
+import doctor from '../../images/brand/biomag.jpg';
 
 const AboutUs = () => {
   return (

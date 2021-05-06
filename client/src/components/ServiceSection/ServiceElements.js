@@ -32,8 +32,9 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesDetails = styled.div`
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   grid-gap: 30px;
+  
 
   @media screen and (max-width: 768px){
     grid-template-columns: 1fr;
@@ -41,17 +42,23 @@ export const ServicesDetails = styled.div`
 `
 
 export const ServicesInfo = styled.div`
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 `
 
 export const ServicesItemBox = styled.div`
   display: flex;
   align-items: center;
-  padding: 15px 0;
+  gap: 15px;
+  padding: 20px 0;
+  margin-right: 30px;
+  margin-bottom: 20px;
 `
 
 export const ServicesItemIcon = styled(GiPentarrowsTornado)`
-  margin-right: 22px;
   font-size: 22px;
   color: red;
 
@@ -72,60 +79,38 @@ export const ServicesItem = styled.h6`
 `
 
 export const ServicesWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content:flex-end;
-  grid-gap: 36px;
-  margin: auto;
-
-  @media screen and (max-width: 1024px){
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media screen and (max-width: 600px){
-    grid-template-columns: 1fr;
-  }
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
 `
 
 export const ServicesCard = styled.div`
   background: #fff;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  transition: all 0.2s ease-in-out;
-
-  &:hover{
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  }
-
-  @media screen and (max-width: 300px){
-    width: 200px;
-    height: 200px;
-  }
+  max-width: 800px;
+  width: 100%;
 `
 
-export const ServicesIcon1 = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+export const ServicesHeader = styled.h4`
+  margin-top: 20px;
+  padding: 5px 0;
+`
+
+export const ServicesPara = styled.div`
+  color: #9b9b9b;
 `
 
 export const ServicesAddress = styled.div`
-  margin-top: 20px;
+  margin-top: 30px;
 `
 
 export const ServicesAddressH2 = styled.h2`
-  font-size: 1.2rem;
+  font-size: 18px;
   margin-bottom: 6px;
-  margin-top: 15px;
+  margin-top: 25px;
   color: #ff5f78;
 `
 
 export const ServicesAddressP = styled.p`
-  font-size: 1rem;
+  font-size: 14px;
   color: #9b9b9b;
 `

@@ -16,7 +16,7 @@ const EnergyWellness = () => {
             <p>
               The energy of absolute nothingness. Scalar energy has zero frequencies it is a stationary energy which cannot be evaluated by the current frequency instruments.
               The energy spin and expand in circle  form. It is a radiant energy a form of electromagnetic energy or invisible wave such as radio waves or x-rays.
-              These waves can travwl through space.
+              These waves can travel through space.
             </p>
             <br/>
             <p>Electromagnetic raiation is made up of tiny particles called photons tiny packets of energy.</p>
@@ -34,7 +34,7 @@ const EnergyWellness = () => {
             </p>
             <br/>
             <p>
-              Scalar waves  are longitudinal. Scalar waves are creaed by a pair of identical waves usually called it waves and antiwaves that are in phase spatially
+              Scalar waves  are longitudinal. Scalar waves are created by a pair of identical waves usually called waves and antiwaves that are in phase spatially
               but out of phase temporally they are different ffrom normal hertizian waves scalar energy is created when two common electromagnetic waves comes together
               from two different converging vectors or angles, where the energy vectors equal frequencies cancels each other leaving a standing or stationary energy.
               This subtle energy form has healing properties. This energy was discovered by James Maxwell a Scotsman born in the 19<sup>th</sup> century.

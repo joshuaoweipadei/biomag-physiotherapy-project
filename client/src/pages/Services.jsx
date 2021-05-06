@@ -27,7 +27,11 @@ const Services = () => {
               <li>It has zero point or radiant energy</li>
               <li>The use of bio-magnetic energy Card or Pack will neutralize the negative energy in our body.</li>
               <li>This card can be used to balance out our energy frequencies.</li>
-              <li>It protect and maintain our bioenergy field.</li>
+              <li>It protect and maintain our bio-energy field.</li>
+              <li>Improves memory.</li>
+              <li>Manages stress.</li>
+              <li>Enhances cell nutrients absorption and waste detoxification.</li>
+              <li>Helps with arthritis and injuries.</li>
               <li>It helps to flush out toxins from your system keeping it regular and in consistent health.</li>
               <li>Help reliefs menstrual pain, joint pain, muscular pain, tooth or ear ache.</li>
               <li>It prevents any sort of pressure that can cause pain; pressure on nerves, swelling of muscules or be of tissue fluids.</li>
@@ -39,6 +43,7 @@ const Services = () => {
               <li>It promotes general healing and boost the immune system.</li>
               <li>It helps to overcome tiredness and body weakness.</li>
               <li>It has no side effects as it is 100% natural.</li>
+              <li>Prevents COVID - 19</li>
             </ol>
           </div>
 
@@ -47,15 +52,16 @@ const Services = () => {
             <ol>
               <li>Wear it as an ID card.</li>
               <li>Place it on any point of the body where there is pain.</li>
-              <li>Place it on drinkable water for 10 minutes to 20 minutes or more for it to charge it together.</li>
+              <li>Place it on drinkable water, water dispenser, minerals, etc. For 20 to 30mins or more.</li>
             </ol>
           </div>
 
           <div className="service_layoutCard">
             <h3>How to use this Energy Pack</h3>
             <ol>
-              <li>Tie it to your pipe connected to your bore hole to energize the whole water in the compound.</li>
+              <li>Attach the pipe connected to your bore hole to energize the whole water in the compound.</li>
               <li>Place it on pure water bags or bottle water, it will charge all of them together.</li>
+              <li>Place it on your vegetables and fruits</li>
               <li>Drink 3 to 4 litres of the energy water to cleanse your body and build the immune system.</li>
             </ol>
           </div>

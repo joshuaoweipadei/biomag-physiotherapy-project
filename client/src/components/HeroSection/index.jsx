@@ -24,7 +24,7 @@ const HeroSection = () => {
         </ScrollAnimation>
         <ScrollAnimation animateIn='bounceInLeft' animateOnce={true}>
           <HeroP>
-            Get our quality product by get in touch with us for your orders.
+            Get our quality product by getting in touch with us for your orders.
           </HeroP>
           <LineH />
         </ScrollAnimation>
