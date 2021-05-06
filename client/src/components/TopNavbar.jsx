@@ -84,7 +84,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                     offset={-80}
                   >Products</LinkScroll>
                 </li> */}
-                <li className="nav__link">
+                {/* <li className="nav__link">
                   <LinkScroll
                     className="nav__linkScroll"
                     to="contact"
@@ -94,7 +94,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                     exact="true"
                     offset={-80}
                   >Contact Us</LinkScroll>
-                </li>
+                </li> */}
               </ul>
             </>
             }
@@ -149,7 +149,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                 exact="true"
                 offset={-80}
               >Products</LinkScroll> */}
-              <LinkScroll
+              {/* <LinkScroll
                 className="mobile__menuLink"
                 onClick={toggle}
                 to="contact"
@@ -158,7 +158,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                 spy={true}
                 exact="true"
                 offset={-80}
-              >Contact Us</LinkScroll>
+              >Contact Us</LinkScroll> */}
             </div>
           </div>
         </CSSTransition>

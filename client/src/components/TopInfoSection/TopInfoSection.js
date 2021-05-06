@@ -28,7 +28,7 @@ export const ServicesRow = styled.div`
 
 export const ServicesWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding-bottom: 80px;
@@ -52,11 +52,11 @@ export const ServicesCard = styled.div`
   height: 100%;
   margin: auto;
   width: 100%;
+  padding: 20px;
+  cursor: pointer;
 
   &:hover{
     transform: scale(1.01);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `
 
@@ -82,7 +82,7 @@ export const CallPhoneIcon = styled(ImPhone)`
 `
 
 export const CallPhoneNumber = styled.h6`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-left: 15px;
   margin-bottom: 0;
@@ -95,6 +95,7 @@ export const CallPhoneNumber = styled.h6`
 export const ServicesP = styled.p`
   font-size: 14px;
   color: #9b9b9b;
+  line-height: 26px;
 `
 
 // Make Appointment
@@ -177,7 +178,7 @@ export const DayRow = styled.div`
 `
 
 export const Day = styled.h5`
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 `
 

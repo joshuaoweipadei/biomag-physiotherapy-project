@@ -1,7 +1,8 @@
-import React, { useState, useContext } from 'react';
-import axios from 'axios';
-import { useForm } from 'react-hook-form';
-import AlertContext from '../AlertContext/alertContext';
+import React from 'react';
+// import React, { useState, useContext } from 'react';
+// import axios from 'axios';
+// import { useForm } from 'react-hook-form';
+// import AlertContext from '../AlertContext/alertContext';
 import {
   ServicesContainer,
   ServicesRow,
@@ -11,10 +12,10 @@ import {
   CallContainer,
   CallPhoneIcon,
   CallPhoneNumber,
-  AppointmentForm,
-  AppointmentInputRow,
-  AppointmentInput,
-  SubmitButton,
+  // AppointmentForm,
+  // AppointmentInputRow,
+  // AppointmentInput,
+  // SubmitButton,
 
   OpeningHours,
   DayRow,
@@ -24,24 +25,24 @@ import {
 } from './TopInfoSection'
 
 const TopInfoSection = () => {
-  const alertContext = useContext(AlertContext);
-  const { setAlert } = alertContext
-  const { handleSubmit, register, errors } = useForm();
-  const [isSubmiting, setIsSubmiting] = useState(false)
+  // const alertContext = useContext(AlertContext);
+  // const { setAlert } = alertContext
+  // const { handleSubmit, register, errors } = useForm();
+  // const [isSubmiting, setIsSubmiting] = useState(false);
 
-  const onSubmit = async (values, e) => {
-    setIsSubmiting(true);
-    try {
-      const res = await axios.post('/api/email/appointment', values);
-      setAlert(res.data, 'success');
-      e.target.reset();
-      setIsSubmiting(false)
-    } catch (err) {
-      console.log(err)
-      setAlert('Could not book appointment.', 'error')
-      setIsSubmiting(false)
-    }
-  }
+  // const onSubmit = async (values, e) => {
+  //   setIsSubmiting(true);
+  //   try {
+  //     const res = await axios.post('/api/email/appointment', values);
+  //     setAlert(res.data, 'success');
+  //     e.target.reset();
+  //     setIsSubmiting(false)
+  //   } catch (err) {
+  //     console.log(err)
+  //     setAlert('Could not book appointment.', 'error')
+  //     setIsSubmiting(false)
+  //   }
+  // }
 
   return (
     <ServicesContainer>
@@ -49,15 +50,18 @@ const TopInfoSection = () => {
         <ServicesWrapper>
           <ServicesCard>
             <OpeningHours>
-              <ServicesH2>Emergency Help</ServicesH2>
+              <ServicesH2>Appointment Booking & Emergency</ServicesH2>
               <CallContainer>
                 <CallPhoneIcon/>
-                <CallPhoneNumber>+234 7069403480</CallPhoneNumber>
+                <CallPhoneNumber>07069403480, 08137434302</CallPhoneNumber>
               </CallContainer>
-              <ServicesP>We provide 24/7 professional dental help for all clients of our clinic.</ServicesP>
+              <ServicesP>
+                We provide 24/7 professional therapy services for all clients of our clinic.
+                Also book appointment with us today, by call our phone lines.
+              </ServicesP>
             </OpeningHours>
           </ServicesCard>
-          <ServicesCard>
+          {/* <ServicesCard>
             <AppointmentForm onSubmit={handleSubmit(onSubmit)} >
               <ServicesH2>Book Appointment</ServicesH2>
               <AppointmentInputRow>
@@ -113,7 +117,7 @@ const TopInfoSection = () => {
                 }
               </small>
             </AppointmentForm>
-          </ServicesCard>
+          </ServicesCard> */}
           <ServicesCard>
             <OpeningHours>
               <ServicesH2>Opening Hours</ServicesH2>

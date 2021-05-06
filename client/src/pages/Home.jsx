@@ -6,7 +6,7 @@ import InfoView from '../components/InfoView';
 import Services from '../components/ServiceSection';
 import TopInfoSection from '../components/TopInfoSection';
 import TopNavbar from '../components/TopNavbar';
-import Contact from '../components/Contact';
+// import Contact from '../components/Contact';
 
 import { homeObjOne, homeObjTwo } from '../components/InfoView/Data'
 import Footer from '../components/Footer';
@@ -22,7 +22,7 @@ const Home = () => {
       <InfoView {...homeObjTwo} />
       {/* <ProductSlider /> */}
       <InfoView {...homeObjOne} />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   )

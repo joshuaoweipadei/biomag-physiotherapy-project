@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // api routes
-app.use('/api/email', require('./routes/email.route'));
+// app.use('/api/email', require('./routes/email.route'));
 
 if(process.env.NODE_ENV === 'production'){
   // Serve static files from the React app

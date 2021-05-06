@@ -7,7 +7,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #fff;
-  padding: 100px 0;
+  padding: 140px 0;
 `
 
 export const ServicesRow = styled.div`
@@ -86,31 +86,29 @@ export const ServicesWrapper = styled.div`
 
 export const ServicesCard = styled.div`
   background: #fff;
-  max-width: 800px;
   width: 100%;
 `
 
+export const ServicesCardHeader = styled.h1`
+  font-size: 30px;
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+  padding: 5px 0 10px;
+`
+
 export const ServicesHeader = styled.h4`
-  margin-top: 20px;
-  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 40px 0 5px;
+  padding: 5px 0 5px 20px;
+  border-left: 3px solid #ff5f78;
 `
 
 export const ServicesPara = styled.div`
   color: #9b9b9b;
+  line-height: 26px;
 `
 
 export const ServicesAddress = styled.div`
   margin-top: 30px;
-`
-
-export const ServicesAddressH2 = styled.h2`
-  font-size: 18px;
-  margin-bottom: 6px;
-  margin-top: 25px;
-  color: #ff5f78;
-`
-
-export const ServicesAddressP = styled.p`
-  font-size: 14px;
-  color: #9b9b9b;
 `

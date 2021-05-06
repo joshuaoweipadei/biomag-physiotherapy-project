@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? '#00b8d7' : '#f7f8fa')};
   color: #fff;
-  padding: 80px 0;
+  padding: 160px 0;
   display: flex;
   flex-direction: column;
   justify-content: center; 
