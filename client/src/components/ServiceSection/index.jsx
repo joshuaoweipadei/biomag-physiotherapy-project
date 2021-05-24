@@ -42,12 +42,12 @@ const Services = () => {
                   Placing bottled water on the energy card energizes the water instantly. You can use tap, filtered, microwaved or any clean water for this purpose.
                   You don't have to believe what you read, try the experiment below yourself:
                 </ServicesPara>
-                <ServicesHeader>The Salt Text</ServicesHeader>
+                <ServicesHeader>The Salt Test</ServicesHeader>
                 <ServicesPara>
                   Get two plates (A and B). Put one spoon of table salt in plate A and B respectively, place the energy card under plate A and taste after a few minute.
                   You will discover that the energized salt tastes less salty compared to the one on plate B.  
                 </ServicesPara>
-                <ServicesHeader>The {"Lime"} Text</ServicesHeader>
+                <ServicesHeader>The {"Lime"} Test</ServicesHeader>
                 <ServicesPara>
                   This is similar ti the salt test, cut the {"lime"} in half, place one half on energy card and leave for a few minute, taste the energized
                   {"lime"} first and then taste the other half afterwards. the other unenergized halt tastes sour. If you leave both halves open to air for a long time,

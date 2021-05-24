@@ -57,7 +57,7 @@ const TopInfoSection = () => {
               </CallContainer>
               <ServicesP>
                 We provide 24/7 professional therapy services for all clients of our clinic.
-                Also book appointment with us today, by call our phone lines.
+                Also book appointment with us today, by calling our phone lines.
               </ServicesP>
             </OpeningHours>
           </ServicesCard>
