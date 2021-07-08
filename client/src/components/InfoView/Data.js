@@ -1,5 +1,5 @@
-import img1 from '../../images/products/product6.jpeg';
-import img2 from '../../images/brand/card.jpg';
+import img1 from '../../images/brand/card4.jpg';
+import img2 from '../../images/brand/card2.jpg';
 
 export const homeObjOne = {
   id: 'discover',
@@ -32,7 +32,7 @@ export const homeObjTwo = {
   topLine: 'Biomag Global Physiotherapy',
   topLineDark: true,
   headline: 'How to use the Biomagnetic Energy Pack/Card',
-  description: `The  energy pack can be placed on refrigerator, freezers, packs of sachet or bottled water, it can be connected to you water supply/tap
+  description: `The  energy pack can be placed on refrigerator, freezers, packs of sachet or bottled water, it can be connected to your water supply/tap
                 in your home as it energises and alkalise anything it comes in contact with through the generation of scalar energy. The card can be worn
                 as an ID card or placed on any part of the body where there is pain. It has been proven to be an effective pain reliever.`,
   imgStart: true,

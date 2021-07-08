@@ -22,7 +22,7 @@ const TopNavbar = ({ hideMenuButton }) => {
         <div className="top__nav">
           <div className="navbar">
             <div className="navbar__brand" onClick={toggleHome}>
-              <h1>BioMAG</h1>
+              <h1>B<span className="io">io</span><span className="MAG">MAG</span></h1>
             </div>
 
             {hideMenuButton &&

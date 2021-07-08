@@ -73,7 +73,7 @@ export const AddressPhone = styled.div`
 `
 
 export const AddressPhoneIcon = styled(FaPhoneAlt)`
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 3px;
   margin-right: 20px;
 
@@ -83,7 +83,7 @@ export const AddressPhoneIcon = styled(FaPhoneAlt)`
 `
 
 export const AddressEmailIcon = styled(AiTwotoneMail)`
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 3px;
   margin-right: 20px;
 
@@ -93,7 +93,7 @@ export const AddressEmailIcon = styled(AiTwotoneMail)`
 `
 
 export const AddressLocationIcon = styled(ImLocation)`
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 3px;
   margin-right: 20px;
 
@@ -105,6 +105,7 @@ export const AddressLocationIcon = styled(ImLocation)`
 export const AddressText = styled.p`
   color: #fff;
   font-size: 14px;
+  line-height: 1.5;
 `
 
 export const ContactItem = styled.ul`

@@ -84,7 +84,7 @@ export const TopLine = styled.span`
   padding: 4px 24px;
   border: none;
   border-left: 5px solid;
-  border-color: ${({ topLineDark }) => (topLineDark ? '#ffffff' : '#ff5f78')};
+  border-color: ${({ topLineDark }) => (topLineDark ? '#ffffff' : '#00b8d7')};
   color: ${({ topLineDark }) => (topLineDark ? '#ffffff' : '#252525')};
 `
 
@@ -92,7 +92,7 @@ export const Heading = styled.h1`
   margin-bottom: 28px;
   font-size: 38px;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#ffffff' : '#ff5f78')};
+  color: ${({ lightText }) => (lightText ? '#ffffff' : '#00b8d7')};
 
   @media screen and (max-width: 480px){
     font-size: 27px
@@ -109,7 +109,7 @@ export const SubTitle = styled.p`
 
 export const ImgWrap = styled.div`
   width: 100%;
-  height: 355px;
+  height: 580px;
   border-radius: 4px;
   overflow: hidden;
   background: #ffffff;

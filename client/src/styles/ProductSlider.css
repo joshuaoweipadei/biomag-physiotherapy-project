@@ -184,7 +184,7 @@
 }
 
 .product__sliderCard:hover > .card__body > .body__title > hr {
-  width: 43px;
+  width: 63px;
 }
 
 .product__sliderRow__Box {
@@ -219,6 +219,7 @@
 .product__sliderCard > .imgContainer > img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   transition: 0.2s all ease-in-out;
 }
 
@@ -240,7 +241,7 @@
   background: #ff5f78;
   margin-right: 10px;
   margin-bottom: 10px;
-  transition: 0.2s all ease-in-out; 
+  transition: 2s all ease-in-out; 
 }
 
 .product__sliderCard > .card__body > .body__title > h2 {

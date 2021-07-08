@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import ScrollAnimation from 'react-animate-on-scroll';
 import { PostsData } from '../../Data'
 
 import '../../styles/ProductSlider.css';
 
-import bg from '../../images/hero1.jpg';
+import card3 from '../../images/brand/card3.jpg';
 
 const CardImg = (props) => {
   return (
@@ -15,15 +15,15 @@ const CardImg = (props) => {
 }
 
 const CardBody = (props) => {
-    return (
-      <div className="card__body">
-        <div className="body__title">
-          <hr/>
-          <h2>{props.title}</h2>
-        </div>
-        <p className="body__text">{props.text}</p>
+  return (
+    <div className="card__body">
+      <div className="body__title">
+        <hr/>
+        <h2>{props.title}</h2>
       </div>
-    )
+      <p className="body__text">{props.text}</p>
+    </div>
+  )
 }
 
 const Card = (props) => {
@@ -37,8 +37,6 @@ const Card = (props) => {
 
 
 const ProductSlider = () => {
-  const [products, setProducts] = useState(PostsData);
-  
   return (
     // <ScrollAnimation animateIn='fadeIn'>
       <div className="product">
@@ -47,19 +45,18 @@ const ProductSlider = () => {
           <div className="product__row">
             <div className="product__info">
               <div className="product__infoBg">
-                <img src={bg} alt="img"/>
+                <img src={card3} alt="img"/>
               </div>
               <div className="product__infoContent">
-              <p>Effective & Trusted</p>
+                <p>Effective & Trusted</p>
                 <h1>High Quality</h1>
                 <p>Quality plus result is what you will get.</p>
-                
               </div>
             </div>
             <div className="product__slider">
               <div className="product__sliderRow">
                 <div className="product__sliderRow__Box">
-                  {Object.keys(products).map(key => <Card key={key} index={key} details={products[key]}/>)}
+                  {Object.keys(PostsData).map(key => <Card key={key} index={key} details={PostsData[key]}/>)}
                 </div>
               </div>
             </div>

@@ -52,7 +52,7 @@ const Services = () => {
             <ol>
               <li>Wear it as an ID card.</li>
               <li>Place it on any point of the body where there is pain.</li>
-              <li>Place it on drinkable water, water dispenser, minerals, etc. For 20 to 30mins or more.</li>
+              <li>Place it on drinkable water, water dispenser, drinks, etc. For 20 to 30mins or more.</li>
             </ol>
           </div>
 

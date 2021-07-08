@@ -36,7 +36,7 @@ const InfoView = ({ id, btn, primary, lightBg, imgStart, topLine, topLineDark, l
                   color="true"
                   primary={primary}
                   dark={darkText}
-                >Know more. . .</Button>
+                >Read more {">"}</Button>
                 }
               {/* </ScrollAnimation> */}
             </Column1>

@@ -49,7 +49,7 @@ const Services = () => {
                 </ServicesPara>
                 <ServicesHeader>The {"Lime"} Test</ServicesHeader>
                 <ServicesPara>
-                  This is similar ti the salt test, cut the {"lime"} in half, place one half on energy card and leave for a few minute, taste the energized
+                  This is similar to the salt test, cut the {"lime"} in half, place one half on energy card and leave for few minute, taste the energized
                   {"lime"} first and then taste the other half afterwards. the other unenergized halt tastes sour. If you leave both halves open to air for a long time,
                   the energized half will look younger than the other because of the scalar energy protecting it. This is the same way the <b>biomagnetic energy card</b>
                   {" "} protect and rejuvenates the body.

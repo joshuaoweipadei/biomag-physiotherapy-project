@@ -70,12 +70,13 @@ export const AboutRightVisionCard = styled.div`
 
 export const AboutRightVisionContainer = styled.div`
   width: 200px;
-  height: 228px;
+  height: 220px;
 `
 
 export const AboutRightVisionImg = styled.img`
   width: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 `
 
 export const AboutRightVisionContent = styled.div`
