@@ -21,7 +21,8 @@ import {
   DayRow,
   Day,
   Time,
-  ServicesP
+  ServicesP,
+  Instagram
 } from './TopInfoSection'
 
 const TopInfoSection = () => {
@@ -59,6 +60,10 @@ const TopInfoSection = () => {
                 We provide 24/7 professional therapy services for all clients of our clinic.
                 Also book appointment with us today, by calling our phone lines.
               </ServicesP>
+              <a href="https://www.instagram.com/invites/contact/?i=4x46tocbd97j&utm_content=k3v3dt2" target="_blank" style={{marginTop: '20px', display: "flex", alignItems: "center", color: "#252525"}}>
+                <Instagram />
+                Instagram
+              </a>
             </OpeningHours>
           </ServicesCard>
           {/* <ServicesCard>

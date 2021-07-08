@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ImPhone } from 'react-icons/im'
+import { GrInstagram } from 'react-icons/gr';
 
 export const ServicesContainer = styled.div`
   display: flex;
@@ -185,4 +186,10 @@ export const Day = styled.h5`
 export const Time = styled.p`
   font-size: 14px;
   color: #9b9b9b;
+`
+
+export const Instagram = styled(GrInstagram)`
+  color: #a7174e;
+  font-size: 18px;
+  margin-right: 7px;
 `
