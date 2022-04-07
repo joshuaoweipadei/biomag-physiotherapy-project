@@ -23,7 +23,7 @@ const InfoView = ({ id, btn, primary, lightBg, imgStart, topLine, topLineDark, l
           <InfoRow imgStart={imgStart}>
             <Column1>
               {/* <ScrollAnimation animateIn={animateIn} animateOut={animateOut}> */}
-                <TextWrapper>
+                <TextWrapper btn={btn}>
                   <Heading lightText={lightText}>{headline}</Heading>
                   <SubTitle darkText={darkText}>{description}</SubTitle>
                   <TopLine topLineDark={topLineDark}>{topLine}</TopLine>

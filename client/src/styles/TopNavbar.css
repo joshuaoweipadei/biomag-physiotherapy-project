@@ -1,5 +1,5 @@
 nav {
-  height: 60px;
+  height: 65px;
   background: #fff;
   display: flex;
   align-items: center;
@@ -30,9 +30,18 @@ nav {
 
 .navbar__brand > h1 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   color: #00b8d7;
   cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.navbar__brand > h1 > .physio {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .navbar__brand > h1 > .io {

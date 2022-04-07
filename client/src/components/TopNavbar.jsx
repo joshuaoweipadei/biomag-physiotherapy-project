@@ -22,7 +22,7 @@ const TopNavbar = ({ hideMenuButton }) => {
         <div className="top__nav">
           <div className="navbar">
             <div className="navbar__brand" onClick={toggleHome}>
-              <h1>B<span className="io">io</span><span className="MAG">MAG</span></h1>
+              <h1>B<span className="io">io</span><span className="MAG">MAG</span> <span className="physio">Physiotherapy</span> </h1>
             </div>
 
             {hideMenuButton &&
@@ -60,7 +60,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                     spy={true}
                     exact="true"
                     offset={-80}
-                  >About</LinkScroll>
+                  >About Us</LinkScroll>
                 </li>
                 <li className="nav__link">
                   <LinkScroll
@@ -128,7 +128,7 @@ const TopNavbar = ({ hideMenuButton }) => {
                 spy={true}
                 exact="true"
                 offset={-80}
-              >About</LinkScroll>
+              >About Us</LinkScroll>
               <LinkScroll
                 className="mobile__menuLink"
                 onClick={toggle}

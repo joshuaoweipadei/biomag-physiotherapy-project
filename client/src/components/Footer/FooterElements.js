@@ -153,7 +153,7 @@ export const FooterBottom = styled.div`
   width: 100%;
   max-width: 1400px;
   margin: auto;
-  padding: 15px 0;
+  padding: 15px 10px;
 
   @media screen and (max-width: 425px) {
     display: block;

@@ -65,7 +65,7 @@ export const TextWrapper = styled.div`
   /* max-width: 430px; */
   width: 100%;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: ${({ btn }) => ( btn ? "60px" : "0")};
 
   @media screen and (max-width: 768px){
     padding-bottom: 30px;
@@ -101,7 +101,7 @@ export const Heading = styled.h1`
 
 export const SubTitle = styled.p`
   /* max-width: 400px; */
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 26px;
   color: ${({ darkText }) => (darkText ? '#ffffff' : '#9b9b9b')};
@@ -115,7 +115,7 @@ export const ImgWrap = styled.div`
   background: #ffffff;
 
   @media screen and (max-width: 425px){
-    height: 340px
+    height: 480px
   }
 `
 
