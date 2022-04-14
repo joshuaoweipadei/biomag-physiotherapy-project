@@ -2,6 +2,9 @@
   "name": "biomag-physio-therapy-project",
   "version": "1.0.0",
   "description": "Biomag Global Physio-therapy Service web app built with react and serve with node.js",
+  "engines": {
+    "node": "14.17.6"
+  },
   "repository": "",
   "main": "node server.js",
   "scripts": {
